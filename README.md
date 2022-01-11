@@ -10,6 +10,7 @@ Improvements:
 - displayed dice are now done in CSS instead of being PNG files, allowing custom number of dice sides and removing need to preload dice images
 - roll dice button now randomizes the dice without the need to refresh the page
 - improved layout for mobile
+- added a favicon
 
 How it works:
  
