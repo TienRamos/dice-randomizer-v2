@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Dice Randomizer v.2.0</title>
+  <link rel="stylesheet" href="css/display.css">
+  <link rel="stylesheet" href="css/console.css">
+</head>
+
+<body>
+
+  <section id="main-flex" class="flex">
+    <div class="dice-display">
+
+      <div class="left-col">
+        <div class="top dicebox">
+          <p id="dice0" class="dice">1</p>
+        </div>
+        <div class="middle dicebox">
+          <p id="dice1" class="dice">2</p>
+        </div>
+        <div class="bottom dicebox">
+          <p id="dice2" class="dice">3</p>
+        </div>
+      </div>
+
+      <div class="middle-col">
+        <div class="top dicebox">
+          <p id="dice3" class="dice">4</p>
+        </div>
+        <div class="middle dicebox">
+          <p id="dice4" class="dice">5</p>
+        </div>
+        <div class="bottom dicebox">
+          <p id="dice5" class="dice">6</p>
+        </div>
+      </div>
+
+      <div class="right-col">
+        <div class="top dicebox">
+          <p id="dice6" class="dice">7</p>
+        </div>
+        <div class="middle dicebox">
+          <p id="dice7" class="dice">8</p>
+        </div>
+        <div class="bottom dicebox">
+          <p id="dice8" class="dice">9</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="console">
+      <div class="controls">
+        <div class="main-controls">
+          <h2 class="subheading">number of dice:</h2>
+          <div class="number-control flex-btn">
+            <button class="console-button number-button minus-btn">- dice</button>
+            <div class="number-display">1</div>
+            <button class="console-button number-button plus-btn">+ dice</button>
+          </div>
+
+          <h2 class="subheading">number of sides:</h2>
+          <div class="side-presets flex-btn">
+            <button class="console-button set-button">4</button>
+            <button class="console-button set-button">6</button>
+            <button class="console-button set-button">8</button>
+            <button class="console-button set-button">10</button>
+            <button class="console-button set-button">12</button>
+            <button class="console-button set-button">20</button>
+          </div>
+          <p class="small-text">- or set custom number -</p>
+          <div class="side-control flex-btn">
+            <button class="console-button side-button minus-btn">- side</button>
+            <div class="side-display">6</div>
+            <button class="console-button side-button plus-btn">+ side</button>
+          </div>
+        </div>
+
+        <div class="other-controls">
+          <div class="other-buttons">
+            <h2 class="subheading color-sub">color:</h2>
+            <div class="color-control flex-btn">
+              <button class="console-button color-button">change color</button>
+              <div class="color-display">red</div>
+            </div>
+            <hr>
+            <div class="randomize-button">
+              <button class="random-button">roll dice</button>
+            </div>
+            <hr>
+          </div>
+
+          <div class="other-log">
+            <div class="previous-log">
+              <h2 class="subheading no-top">previous roll:</h2>
+              <p class="list list-log"><em>DiceRandomizer v.2.0 by TienRamos</em></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="index.js" type="text/javascript">
+
+  </script>
+</body>
+
+</html>

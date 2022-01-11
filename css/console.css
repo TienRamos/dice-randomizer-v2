@@ -1,0 +1,396 @@
+.console {
+  width: 20vw;
+  height: 39vw;
+  padding: 3%;
+  margin-left: 2vw;
+  font-family: sans-serif;
+  color: #8899A6;
+  background-color: transparent;
+  border-color: #324556;
+  border-style: solid;
+  border-width: 0.5vw;
+  border-radius: 1.5vw;
+}
+
+hr {
+  border-color: #8899A6;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  margin: 10px 0;
+}
+
+.flex-btn {
+  display: flex;
+  margin-bottom: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.subheading {
+  font-size: 1.2vw;
+  color: #8899A6;
+}
+
+.small-text {
+  font-size: 1vw;
+}
+
+.number-control {
+  text-align: center;
+}
+
+.color-control {
+  justify-content: center;
+}
+
+.color-display {
+  display: none;
+}
+
+.number-display, .side-display, .color-display {
+  font-size: 2vw;
+  margin: 0 20px;
+  color: #49ddc1;
+}
+
+.number-button, .side-button, .color-button, .random-button {
+  background-color: transparent;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 0.2vw;
+  border-color: white;
+  padding: 0.3vw 0.7vw;
+  font-size: 1vw;
+  font-weight: 600;
+}
+
+.side-presets {
+  width: 100%;
+}
+
+.color-button {
+  border-color: #ec4145;
+  color: #ec4145;
+}
+
+.color-button:hover {
+  background-color: #22303C;
+}
+
+.randomize-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-button {
+  font-size: 1.5vw;
+  padding: 0.3vw 3.5vw;
+  color: #09b0f2;
+  border-color: #09b0f2;
+}
+
+.random-button:hover {
+  color: #192734;
+  background-color: #09b0f2;
+}
+
+.set-button {
+  color: #49ddc1;
+  background-color: transparent;
+  border-radius: 50px;
+  border-color: #49ddc1;
+  border-style: solid;
+  border-width: 0.2vw;
+  font-size: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5vw;
+  height: 2.2vw;
+  margin: 0 0.5vw;
+  font-weight: 600;
+}
+
+.set-button:hover {
+  color: #192734;
+  background-color: #49ddc1;
+}
+
+.plus-btn {
+  color: #3da560;
+  border-color: #3da560;
+}
+
+.plus-btn:hover {
+  color: #192734;
+  background-color: #3da560;
+}
+
+.minus-btn {
+  color: #ec4145;
+  border-color: #ec4145;
+}
+
+.minus-btn:hover {
+  color: #192734;
+  background-color: #ec4145;
+}
+
+.list-log {
+  font-size: 1.5vw;
+}
+
+@media (max-width: 768px) {
+  .console {
+    width: 79vw;
+    height: 30vw;
+    margin: 2vh 0 0 0;
+    flex-direction: column;
+  }
+
+  .controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .subheading {
+    font-size: 1.5vw;
+  }
+
+  .number-button, .side-button, .color-button, .random-button {
+    border-width: 0.35vw;
+    padding: 0.5vw 1vw;
+    font-size: 2vw;
+  }
+
+  .random-button {
+    width: 80%;
+  }
+
+  .set-button {
+    border-width: 0.3vw;
+    font-size: 2vw;
+    width: 4vw;
+    height: 4vw;
+    margin: 0 0.5vw;
+    font-weight: 600;
+  }
+
+  .small-text {
+    display: none;
+  }
+
+  .color-button {
+    border-color: #ec4145;
+    color: #ec4145;
+  }
+
+  .color-sub {
+    display: none;
+  }
+
+  .number-display, .side-display {
+    font-size: 3vw;
+    margin: 0 20px;
+  }
+
+  .main-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .other-controls {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .other-buttons {
+    width: 100%;
+  }
+
+  .list-log {
+    font-size: 2.8vw;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .console {
+    width: 79vw;
+    height: 72vw;
+    margin: 2vh 0 0 0;
+    flex-direction: column;
+  }
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .subheading {
+    font-size: 3vw;
+    margin-top: 1vw;
+  }
+
+  .number-button, .side-button, .color-button, .random-button {
+    border-width: 0.35vw;
+    padding: 1vw 2vw;
+    font-size: 4vw;
+  }
+
+  .color-button, .random-button {
+    width: 80%
+  }
+
+  .set-button {
+    border-width: 0.3vw;
+    font-size: 4vw;
+    width: 8vw;
+    height: 8vw;
+    margin: 0 1vw 5px;
+    font-weight: 600;
+  }
+
+  .color-button {
+    border-color: #ec4145;
+    color: #ec4145;
+  }
+
+  .color-sub {
+    display: none;
+  }
+
+  .number-display, .side-display {
+    font-size: 4vw;
+    margin: 0 20px;
+  }
+
+  .main-controls {
+    width: 78vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .other-controls {
+    width: 78vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1vh;
+    border-top: solid 1px;
+  }
+
+  .other-buttons {
+    width: 100%;
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .color-control {
+    width: 50%;
+    margin: 0;
+  }
+
+  .randomize-button {
+    width: 50%;
+    margin: 0;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .other-log {
+    height: 100%;
+    width: 100%;
+    border-top: solid;
+    padding-top: 1vh;
+    border-width: 1px;
+  }
+
+  .previous-log {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .no-top {
+    margin-top: 0;
+  }
+
+  .list-log {
+    font-size: 2.8vw;
+    margin: 0;
+  }
+
+  .small-text {
+    display: none;
+  }
+}
+
+/* @media (width: 375px) {
+  .console {
+    height: 80vw;
+  }
+
+  .other-controls {
+    width: 78vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1vh;
+  }
+
+  .other-buttons, .other-log {
+    width: 50%
+  }
+
+  hr {
+    display: none;
+  }
+
+  .other-log {
+    margin-top: 2vh;
+    height: 100%;
+    width: 80%;
+    border-left: none;
+    border-top: solid;
+    border-width: 1px;
+    padding-top: 3vw;
+  }
+
+  .previous-log {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .no-top {
+    margin-top: 0;
+  }
+
+  .list-log {
+    font-size: 3.5vw;
+    margin: 0;
+  }
+
+  .small-text {
+    display: none;
+  }
+} */
