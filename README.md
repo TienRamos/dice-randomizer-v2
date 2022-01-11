@@ -5,6 +5,7 @@ New features:
 - customizable number of sides/faces
 - color changer
 - log of the previous roll
+- press spacebar to roll dice
 
 Improvements: 
 - displayed dice are now done in CSS instead of being PNG files, allowing custom number of dice sides and removing need to preload dice images
