@@ -1,5 +1,3 @@
-# dice-randomizer-v2
-
 Dice Randomizer v.2.0 is an update to the original Dice Randomizer, my first personal web development project. It includes several new features and improvements based on the feedback of the wonderful people from the r/learnprogramming subreddit. 
 
 New features:
@@ -30,5 +28,4 @@ I am very much aware of the extent of code repetition in this project, especiall
 With that said, I hope you’d enjoy using this little project of mine as much as I enjoyed coding it (mostly the JavaScript, not so much the CSS).
 
 -Tien Ramos
-![image](https://user-images.githubusercontent.com/96941036/148942597-e3e82f40-592b-40cf-b0ce-59cd0b0049a7.png)
 
